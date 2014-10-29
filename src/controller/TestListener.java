@@ -40,5 +40,4 @@ public class TestListener extends HttpServlet {
 			System.out.println(task.getId() + "--" + task.getName() + " get completed");
 		}
 	}
-
 }
