@@ -1,0 +1,6 @@
+<fieldset>
+	<legend>start point<legend/>
+	People: <input type="text" name="personName"/><br/>
+	Reason: <textarea name="reason"><textarea><br/>
+	Days: <input type="text" name="days"/>
+</fieldset>
