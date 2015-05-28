@@ -11,7 +11,7 @@ public class FileTest {
     	FileTest ser = new FileTest();
         ser.savePerson();
         ser.restorePerson();        
-    }
+    } 
     
     public void savePerson(){
         Person myPerson = new Person("Jay",24);
