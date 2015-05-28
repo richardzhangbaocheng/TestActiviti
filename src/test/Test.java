@@ -16,7 +16,7 @@ import org.activiti.engine.task.Task;
 import util.ActivitiUtils;
 
 public class Test {
-	
+	//test
 	private static ProcessEngine processEngine = ActivitiUtils.getProcessEngine();
 	private TestManager testManager = new TestManager();
 
@@ -47,7 +47,7 @@ public class Test {
 	public static void queryInstance(){
 		//All Active
 		List<ProcessInstance> list = ActivitiUtils.getAllActiveProcessInstance(processEngine);
-		//¶¨µã²éÑ¯
+		//Â¶Â¨ÂµÃ£Â²Ã©Ã‘Â¯
 		list = ActivitiUtils.getProcessInstanceByBusinessKey(processEngine.getRuntimeService(), "zbctest01");
 		for(ProcessInstance processInstance : list){
 			System.out.println(processInstance.getId());
